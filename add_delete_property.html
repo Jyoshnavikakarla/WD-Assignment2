@@ -1,0 +1,15 @@
+<html>
+<body>
+<script>
+const person1= new Object();
+person1.firstname="abc";
+person1.secondname="def";
+person1.age="30";
+document.write("Person details before the manupulation :"+Object.entries(person1))
+person1.height="160cm";
+document.write("<br>Person details after the adding :"+Object.entries(person1))
+delete person1.age;
+document.write("<br>Person details after the deleting :"+Object.entries(person1))
+</script>
+</body>
+</html>
